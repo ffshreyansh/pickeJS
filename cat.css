@@ -1,8 +1,4 @@
-body {
-    background-color: #1f2964;
-    padding: 0;
-    margin: 0;
-}
+
 .container {
     height: 200px;
     width: 350px;
@@ -12,7 +8,7 @@ body {
     top: 50%;
 }
 .cat {
-    background-color: #f19b1a;
+    background-color: #DF8DE5;
     height: 65px;
     width: 80px;
     border-radius: 0 80px 80px 0;
@@ -23,7 +19,7 @@ body {
 .ear {
     height: 15px;
     width: 15px;
-    background-color: #f19b1a;
+    background-color: #DF8DE5;
     position: absolute;
     bottom: 64px;
     left: 8px;
