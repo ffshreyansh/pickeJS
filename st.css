@@ -9,19 +9,6 @@ html {
     -webkit-text-size-adjust: none;
 }
 
-html,
-input,
-button {
-    font-family: Nunito, "Satoshi", Helvetica, Arial, sans-serif;
-}
-
-*,
-*:before,
-*:after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
-}
 
 .mainPage {
     padding: 10px;
@@ -67,10 +54,6 @@ button {
     
 }
 
-.header {
-    padding: 0 1em;
-    text-align: center;
-}
 
 .header__logo {
     width: 100%;
