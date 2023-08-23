@@ -9,34 +9,34 @@
 
 
 
-        function showPreloader() {
-            const preloader = document.querySelector('.prel');
-            preloader.classList.remove('hidden');
-        }
+        // function showPreloader() {
+        //     const preloader = document.querySelector('.prel');
+        //     preloader.classList.remove('hidden');
+        // }
 
-        function hidePreloader() {
-            const preloader = document.querySelector('.prel');
-            preloader.classList.add('hidden');
-        }
+        // function hidePreloader() {
+        //     const preloader = document.querySelector('.prel');
+        //     preloader.classList.add('hidden');
+        // }
 
 
         document.querySelector("#calcBedTime").addEventListener("click", function () {
-            showPreloader();
+            // showPreloader();
             fill("bedtime");
-            setTimeout(function () {
-                hidePreloader();
+            // setTimeout(function () {
+            //     hidePreloader();
 
-            }, 1000);
+            // }, 1000);
             showElem(calcSection, timeSelect);
         });
 
         document.querySelector("#calcWakeTime").addEventListener("click", function () {
-            showPreloader();
+            // showPreloader();
             fill("wakeup");
-            setTimeout(function () {
-                hidePreloader();
+            // setTimeout(function () {
+            //     hidePreloader();
 
-            }, 1000);
+            // }, 1000);
             showElem(calcSection, timeSelect);
         });
 
