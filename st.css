@@ -1,13 +1,6 @@
 *{
     font-family: 'Satoshi', sans-serif;
 }
-html {
-    box-sizing: border-box;
-    height: 100%;
-    /* background-color: #455788; */
-    text-size-adjust: none;
-    -webkit-text-size-adjust: none;
-}
 
 
 .mainPage {
